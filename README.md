@@ -30,7 +30,7 @@ let result = parser.parseSync('../path/to/file.php', (error) => {
 
 ## Installing
 
-Run `npm install oxy/php-arrays --save-dev`.
+Run `npm install php-arrays --save-dev`.
 
 ## API
 
