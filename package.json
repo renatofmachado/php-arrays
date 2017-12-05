@@ -1,6 +1,6 @@
 {
   "name": "php-arrays",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Parse PHP array-like configuration files.",
   "main": "index.js",
   "scripts": {
