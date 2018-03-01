@@ -9,7 +9,7 @@
 exports.command = function (file) {
     file = file.replace(/(["\s'$`\\])/g, '\\$1');
 
-    return `$(which php) -n -d display_errors=0 -r \'echo json_encode(include("${file}"));\'`
+    return `$(which php) -d display_errors=0 -r \'echo @json_encode(@include(__DIR__ . DIRECTORY_SEPARATOR . "${file}"));\'`
 };
 
 /**
