@@ -15,8 +15,8 @@
   "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.0.1",
-    "nyc": "^11.3.0"
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
   },
   "dependencies": {
     "child_process": "^1.0.2"
